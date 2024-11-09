@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi Judi Online</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tambahkan skrip reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header>
+        <h1>Konsultasi Judi Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di Konsultasi Judi Online</h2>
+            <p>Kami menyediakan layanan konsultasi untuk semua jenis judi online.</p>
+            <button id="connectButton">Hubungkan Wallet</button>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah tim profesional yang siap membantu Anda dalam dunia judi online.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nama" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Pesan" required></textarea>
+                <!--recapctha--> 
+                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY_HERE"></div>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Konsultasi Judi Online. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
